@@ -7,7 +7,7 @@ import { useState } from 'react';
 import styles from '../styles/Chat.module.css';
 import Messages from "./Messages";
 
-const socket = io.connect('http://localhost:5500');
+const socket = io.connect('https://practice-10variant-fil-eg.onrender.com');
 
 const Chat = () => {
     const { search } = useLocation();
